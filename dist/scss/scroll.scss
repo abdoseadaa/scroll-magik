@@ -1,0 +1,473 @@
+// ==============1D slide==========
+.slide-up {
+  animation: slide-up 1.5s forwards ease-in-out;
+}
+.slide-down {
+  animation: slide-down 1.5s forwards ease-in-out;
+}
+.slide-left {
+  animation: slide-left 1.5s forwards ease-in-out;
+}
+.slide-right {
+  animation: slide-right 1.5s forwards ease-in-out;
+}
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slide-down {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}
+@keyframes slide-left {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-right {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0%);
+  }
+}
+// ============2D slide==========
+
+.slide-up-left {
+  animation: slide-up-left 1.5s forwards ease-in-out;
+}
+.slide-down-right {
+  animation: slide-down-right 1.5s forwards ease-in-out;
+}
+.slide-down-left {
+  animation: slide-down-left 1.5s forwards ease-in-out;
+}
+.slide-up-right {
+  animation: slide-up-right 1.5s forwards ease-in-out;
+}
+
+@keyframes slide-down-left {
+  from {
+    transform: translate(-100%, -100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes slide-down-right {
+  from {
+    transform: translate(100%, -100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes slide-up-left {
+  from {
+    transform: translate(-100%, 100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes slide-up-right {
+  from {
+    transform: translate(100%, 100%);
+  }
+  to {
+    transform: translate(0%, 0%);
+  }
+}
+
+// =============1D slide with fade =========
+.fade-up {
+  animation: fade-up 1.5s forwards ease-in-out;
+}
+.fade-down {
+  animation: fade-down 1.5s forwards ease-in-out;
+}
+.fade-left {
+  animation: fade-left 1.5s forwards ease-in-out;
+}
+.fade-right {
+  animation: fade-right 1.5s forwards ease-in-out;
+}
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes fade-down {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+@keyframes fade-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+@keyframes fade-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
+// ==========2D fade=================
+
+.fade-up-left {
+  animation: fade-up-left 1.5s forwards ease-in-out;
+}
+.fade-up-right {
+  animation: fade-up-right 1.5s forwards ease-in-out;
+}
+.fade-down-left {
+  animation: fade-down-left 1.5s forwards ease-in-out;
+}
+.fade-down-right {
+  animation: fade-down-right 1.5s forwards ease-in-out;
+}
+
+@keyframes fade-down-left {
+  from {
+    opacity: 0;
+    transform: translate(-100%, -100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes fade-down-right {
+  from {
+    opacity: 0;
+    transform: translate(100%, -100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes fade-up-left {
+  from {
+    opacity: 0;
+    transform: translate(-100%, 100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+@keyframes fade-up-right {
+  from {
+    opacity: 0;
+    transform: translate(100%, -100%);
+  }
+  to {
+    opacity: 1;
+    transform: translate(0%, 0%);
+  }
+}
+
+// ===================fade effects============
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+// ==========Zoom==============
+
+.zoom-in {
+  animation: zoom-in 1.5s forwards ease-in-out;
+}
+.zoom-in-out {
+  animation: zoom-in-out 1.5s forwards ease-in-out;
+}
+.zoom-out {
+  animation: zoom-out 1.5s forwards ease-in-out;
+}
+.zoom-out-in {
+  animation: zoom-out-in 1.5s forwards ease-in-out;
+}
+@keyframes zoom-in {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes zoom-in-out {
+  0% {
+    transform: scale(0.95);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom-out {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes zoom-out-in {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+// ==============zoom with slide animation ===========
+
+.zoom-in-down {
+  animation: zoom-in-down 1.5s forwards ease-in-out;
+}
+.zoom-in-up {
+  animation: zoom-in-up 1.5s forwards ease-in-out;
+}
+.zoom-out-down {
+  animation: zoom-out-down 1.5s forwards ease-in-out;
+}
+.zoom-out-up {
+  animation: zoom-out-up 1.5s forwards ease-in-out;
+}
+
+@keyframes zoom-in-down {
+  from {
+    transform: translateY(-100%) scale(0.8);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+  }
+}
+
+@keyframes zoom-in-up {
+  from {
+    transform: translateY(100%) scale(0.8);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+  }
+}
+
+@keyframes zoom-out-down {
+  from {
+    transform: translateY(-100%) scale(1.2);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+  }
+}
+
+@keyframes zoom-out-up {
+  from {
+    transform: translateY(100%) scale(1.2);
+  }
+  to {
+    transform: translateY(0%) scale(1);
+  }
+}
+// ================flip animation========
+.flip-x {
+  animation: flip-x 1.5s forwards ease-in-out;
+}
+.flip-y {
+  animation: flip-y 1.5s forwards ease-in-out;
+}
+.flip-z {
+  animation: flip-z 1.5s forwards ease-in-out;
+}
+.skew {
+  animation: skew 1.5s forwards ease-in-out;
+}
+@keyframes flip-x {
+  from {
+    transform: rotateX(90deg);
+  }
+  to {
+    transform: rotateX(0deg);
+  }
+}
+@keyframes flip-y {
+  from {
+    transform: rotateY(90deg);
+  }
+  to {
+    transform: rotateY(0deg);
+  }
+}
+@keyframes flip-z {
+  from {
+    transform: rotateZ(90deg);
+  }
+  to {
+    transform: rotateZ(0deg);
+  }
+}
+@keyframes skew {
+  from {
+    transform: skew(45deg);
+  }
+  to {
+    transform: skew(0deg);
+  }
+}
+
+// ===================custom animation==========
+.blur {
+  animation: blur 1.5s forwards ease-in-out;
+}
+.heartbeat {
+  animation: heartbeat 1.5s forwards ease-in-out;
+}
+.spin-180 {
+  animation: spin-180 1.5s forwards ease-in-out;
+}
+.spin-360 {
+  animation: spin-360 1.5s forwards ease-in-out;
+}
+.gray {
+  animation: gray 1.5s forwards ease-in-out;
+}
+
+.width {
+  overflow: hidden;
+  animation: width 1.5s forwards ease-in-out;
+}
+.rotate-x {
+  animation: rotate-x 1.5s forwards ease-in-out;
+}
+.rotate-y {
+  animation: rotate-y 1.5s forwards ease-in-out;
+}
+
+@keyframes blur {
+  from {
+    overflow: hidden;
+    filter: blur(2.5px);
+  }
+  to {
+    overflow: hidden;
+    filter: blur(0px);
+  }
+}
+@keyframes gray {
+  from {
+    filter: grayscale(1);
+  }
+  to {
+    filter: grayscale(0);
+  }
+}
+@keyframes width {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  20% {
+    transform: scale(0.95);
+  }
+  40% {
+    transform: scale(1.1);
+  }
+  60% {
+    transform: scale(0.8);
+  }
+  80% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes spin-180 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+@keyframes spin-360 {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes rotate-x {
+  from {
+    transform: rotateX(0deg);
+  }
+  to {
+    transform: rotateX(360deg);
+  }
+}
+@keyframes rotate-y {
+  from {
+    transform: rotateY(0deg);
+  }
+  to {
+    transform: rotateY(360deg);
+  }
+}
