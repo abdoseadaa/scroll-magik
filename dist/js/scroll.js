@@ -22,9 +22,13 @@ const elementInViewPort = () => {
         (window.innerHeight || document.documentElement.clientHeight) +
           elmHeight
     ) {
-      let scroll_Class = elm.getAttribute("data-scroll").split(" ");
-      elm.style.animationDuration = scroll_Class[1];
-      elm.classList.add(scroll_Class[0]);
+      let data = elm.getAttribute("data-scroll").replace(/\s/g, "").split(",");
+      (data.includes("hide") || data.includes("hidden")) ? elm.parentElement.style.overflow = "hidden" : null;
+      elm.style.animationDuration = data[1]
+      elm.classList.add(data[0])
+      
+
+
     }
   }
 };
