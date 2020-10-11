@@ -24,12 +24,9 @@
 
 - [About](#about)
 - [Getting Started](#getting_started)
-- [Deployment](#deployment)
 - [Usage](#usage)
 - [Options](#options)
 - [Built Using](#built_using)
-- [TODO](../TODO.md)
-- [Contributing](../CONTRIBUTING.md)
 - [Authors](#authors)
 - [Acknowledgments](#acknowledgement)
 
@@ -40,7 +37,8 @@
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+- Main goal of doing this library that i want user to write less code to make more animations 🎉✨
+- with only one data attribute "data-scroll" user can do 3 options for now 😌
 
 ### Prerequisites
 
@@ -70,23 +68,23 @@ OR
 - You can use the CDN links below and include it directly to your project 🔗🔗
 
 ```
-link.css
+https://unpkg.com/scroll-magik@1.0.1/dist/css/scroll.css
 ```
 
 ```
-link.min.css
+https://unpkg.com/scroll-magik@1.0.1/dist/css/scroll.min.css
 ```
 
 ```
-link.scss
+https://unpkg.com/scroll-magik@1.0.1/dist/scss/scroll.scss
 ```
 
 ```
-link.js
+https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.js
 ```
 
 ```
-link.min.js
+https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.min.js
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -133,10 +131,6 @@ data-scroll='fade-up .5s hide'
 ```
 
 - And thats is for now , more features is coming with upper versions🥳😌✨🎉
-
-## 🚀 Deployment <a name = "deployment"></a>
-
-Add additional notes about how to deploy this on a live system.
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

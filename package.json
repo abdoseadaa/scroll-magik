@@ -1,0 +1,29 @@
+{
+  "name": "scroll-magik",
+  "version": "1.0.0",
+  "description": "Fast and Fancy animations , Easy to use and perfect for any kind of style",
+  "main": "\"./dist/js/scroll.js\"",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdoseadaa/scroll-magik.git"
+  },
+  "keywords": [
+    "scroll-animations",
+    "aos",
+    "wowjs",
+    "magik-scroll",
+    "scroll-animation",
+    "animaitons",
+    "js-animations",
+    "css-animations"
+  ],
+  "author": "Abdelrahman Seada twitter.com/abdoseadaa  || abdoseadaa.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdoseadaa/scroll-magik/issues"
+  },
+  "homepage": "https://github.com/abdoseadaa/scroll-magik#readme"
+}
