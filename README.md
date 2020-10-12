@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="" rel="noopener">
+  <a href="" >
  <img style="max-width:100%; object-fit: cover;border-radius: 50%;"  src="https://i.pinimg.com/originals/7e/f8/40/7ef840ef893dfc2f18fbd55367b318cf.gif" alt="Project logo"></a>
 </p>
 
@@ -45,7 +45,7 @@
 Nothing required to start using it , just put it right in your files and that's it 🥳
 
 ```
-<div data-scroll="fade-up 1s hide">
+<div data-scroll="fade-up , 1s , hide">
   <h1>code here...</h1>
 </div>
 
@@ -60,7 +60,7 @@ Or
 - you can use npm to install it , run the line below in your machine command line (need Node.js to be installed ) 📁📁
 
 ```
-npm install scroll-aniamtions --save
+npm install scroll-magik --save
 ```
 
 OR
@@ -68,23 +68,23 @@ OR
 - You can use the CDN links below and include it directly to your project 🔗🔗
 
 ```
-https://unpkg.com/scroll-magik@1.0.1/dist/css/scroll.css
+https://unpkg.com/scroll-magik@1.1.0/dist/css/scroll.css
 ```
 
 ```
-https://unpkg.com/scroll-magik@1.0.1/dist/css/scroll.min.css
+https://unpkg.com/scroll-magik@1.1.0/dist/css/scroll.min.css
 ```
 
 ```
-https://unpkg.com/scroll-magik@1.0.1/dist/scss/scroll.scss
+https://unpkg.com/scroll-magik@1.1.0/dist/scss/scroll.scss
 ```
 
 ```
-https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.js
+https://unpkg.com/scroll-magik@1.1.0/dist/js/scroll.js
 ```
 
 ```
-https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.min.js
+https://unpkg.com/scroll-magik@1.1.0/dist/js/scroll.min.js
 ```
 
 ## 🎈 Usage <a name="usage"></a>
@@ -93,7 +93,7 @@ https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.min.js
   example :
 
 ```
-<div data-scroll="fade-up 1s hide">
+<div data-scroll="fade-up , 1s , hide">
  <h1>code here...</h1>
 </div>
 ```
@@ -105,7 +105,7 @@ https://unpkg.com/scroll-magik@1.0.1/dist/js/scroll.min.js
 - So How to Edit it ?
 
 ```
-data-scroll='fade-up 2s hide'
+data-scroll='fade-up , 2s , hide'
 ```
 
 - in order to work properly you need to add at least one property in the data-scroll attr and that would be the animation behavior like "fade-up , slide-up , blur ... etc "
@@ -120,13 +120,13 @@ data-scroll='fade-up'
 - By default animation duration is 1.5 seconds , but if you want to change it you can do it easily by adding second property beside the animation behavior like so 👇👇
 
 ```
-data-scroll='fade-up .5s'
+data-scroll='fade-up , .5s'
 ```
 
 - If you want the parent element of the selected element to have over-flow hidden add so element start the animation on it's container only you need to add "hide" beside the duration property , like so 👇
 
 ```
-data-scroll='fade-up .5s hide'
+data-scroll='fade-up , .5s , hide'
 
 ```
 
